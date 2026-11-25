@@ -10,11 +10,11 @@
 
 브랜치마다 별도 worktree를 사용하고, 하나의 브랜치를 여러 worktree에서 동시에 체크아웃하지 않습니다.
 
-현재 작업 폴더:
+현재 로컬 worktree:
 
-- `develop`: `C:/project/tic-tac-toe`
-- `main`: `C:/project/tic-tac-toe-main`
-- `feature/tic-tac-toe-game`: `C:/project/tic-tac-toe-feature-game`
+- `develop`: `C:/project/tic-tac-toe-public`
+- `main`: `C:/project/tic-tac-toe-public-main`
+- 기능 브랜치는 `C:/project/tic-tac-toe-public-feature-<name>` 형태로 별도 생성합니다.
 
 ```powershell
 git worktree list
