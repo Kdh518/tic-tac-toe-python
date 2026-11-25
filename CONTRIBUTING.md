@@ -18,8 +18,8 @@
 
 ```powershell
 git worktree list
-git worktree add -b feature/example C:/project/tic-tac-toe-feature-example develop
-git worktree remove C:/project/tic-tac-toe-feature-example
+git worktree add -b feature/example C:/project/tic-tac-toe-public-feature-example develop
+git worktree remove C:/project/tic-tac-toe-public-feature-example
 ```
 
 병합 전 테스트를 실행합니다:
